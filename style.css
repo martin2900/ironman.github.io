@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#mainContainer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#blockMain{
+    width: 90%;
+    height: 607px;
+    border: 1px solid green;
+    background-image: url(ironman-umvc%D1%81.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divAvenger{
+    width: 90%;
+    height: 400px;
+    background-image: url(avenger.png);
+    background-size: 100% 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+#divLogo{
+    width: 100px;
+    height: 50px;
+    background-image: url(%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG);
+    background-size: 100% 100%;
+}
+#download{
+    background-color: #C38D5C;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    color: white;
+}
+#divForm{
+    margin-left: 310px;
+}
+#play{
+    background-color: #783B3B;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    color: white;
+}
+#divManPng{
+    width: 50%;
+    height: 600px;
+    background-image: url(ironman_PNG62.png);
+    background-size: cover;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
